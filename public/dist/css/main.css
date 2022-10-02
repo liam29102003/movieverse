@@ -1,0 +1,173 @@
+body {
+    background-image: url('movie.png');
+    font-family: fantasy;
+    background-size: 1300px;
+}
+
+* {
+    transition: all 1s ease-in 1s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.movieverse {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    opacity: 0.5;
+    font-size: 200%;
+}
+
+.movieverse:hover {
+    text-decoration: underline;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 30px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    /* background-color: brown; */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: black;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.btn {
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration: underline;
+}
+
+.btn:hover {
+    color: blue;
+}
+
+.heading {
+    padding-top: 130px;
+    text-align: center;
+    color: white;
+    font-family: 'Itim', cursive;
+    font-size: 600%;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.first {
+    /* margin: 20px; */
+    height: 580px;
+}
+
+.second {
+    /* width: 100%; */
+    /* width: 100%; */
+    border: 3px solid gray;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    background-color: #003060;
+    /* background-image: url('pexels-felix-mittermeier-956999.jpg'); */
+    /* background-size: cover; */
+}
+
+.third {
+    border: 3px solid gray;
+    border-left: none;
+    border-right: none;
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    background-color: #003060;
+}
+
+.left-text {
+    color: white;
+    width: 500px;
+}
+
+.second .right-text img {
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid grey; */
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(9, 9, 9, 0), 0 6px 20px 0 rgba(28, 13, 236, 0.911);
+}
+
+.third .right-text img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 300px;
+    width: 400px;
+    border: none;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(9, 9, 9, 0), 0 6px 20px 0 rgba(28, 13, 236, 0.911);
+}
+
+.fourth {
+    border: 3px solid gray;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background-color: #003060;
+}
+
+.fourth .right-text img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 300px;
+    width: 400px;
+    border: none;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(9, 9, 9, 0), 0 6px 20px 0 rgba(28, 13, 236, 0.911);
+}
+
+.fifth {
+    border: 3px solid gray;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background-color: #003060;
+}
+
+.fifth .right-text img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 300px;
+    width: 400px;
+    border: none;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(9, 9, 9, 0), 0 6px 20px 0 rgba(28, 13, 236, 0.911);
+}
+
+@media (max-width: 600px) {
+    .heading {
+        font-size: 60%;
+        padding-top: 160px;
+    }
+    .heading span {
+        font-size: 70px;
+    }
+    .text {
+        display: none;
+    }
+}
