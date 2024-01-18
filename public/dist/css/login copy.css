@@ -1,0 +1,144 @@
+.create span {
+    font-size: 0.8em;
+}
+
+* {
+    transition: all 0.5s linear;
+}
+
+.create a {
+    text-decoration: none;
+    color: rgb(0, 192, 240);
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.create {
+    text-align: center;
+}
+
+a:hover {
+    color: rgb(255, 4, 4);
+}
+
+.body {
+    /* background-image: url("navy.jpg"); */
+    font-family: 'Poppins', sans-serif;
+    color: antiquewhite;
+    background-size: cover;
+}
+
+.box {
+    display: block;
+    margin-right: 10%;
+    margin-left: 12%;
+}
+
+
+/* .email {
+       margin-top: 30px;
+   } */
+
+.email,
+.pwd {
+    width: 100%;
+    padding: 5%;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #044c94;
+    border: solid gray;
+    color: #fff;
+    /* opacity: 1; */
+}
+
+fieldset {
+    /* background-color: gray; */
+    /* opacity: 0.7; */
+    /* position: relative;
+       right: 6cm;
+       left: 12cm; */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 40%;
+    height: fit-content;
+    border-radius: 15px;
+    border: 5px solid #003060;
+    background-image: url('movie.png');
+    background-size: contain;
+}
+
+.btn1 {
+    /* position: relative;
+       left: 290px;
+       top: 5px; */
+    background-color: #044c94;
+    color: gray;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    float: left;
+    margin-top: 30px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.btn2 {
+    /* position: relative;
+       left: 300px;
+       top: 5px; */
+    background-color: #044c94;
+    color: gray;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    float: right;
+    margin-top: 30px;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.btn1:hover,
+.btn2:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.btn3 {
+    background-color: gray;
+    padding: grey 2psx;
+}
+
+a:hover {
+    color: aqua
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+legend {
+    font-size: 45px;
+    text-align: center;
+    font-family: cursive, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #003060;
+}
+
+form {
+    margin-top: 100px;
+}
+
+img {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 2px solid gray;
+    background-color: #044c94;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
